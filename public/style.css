@@ -29,3 +29,16 @@
   display: inline;
   padding: 0 20px;
 }
+
+.sidebar__nav ul {
+  padding: 0;
+}
+
+.sidebar__nav li {
+  list-style-type: none;
+  border-bottom: 1px solid #888;
+}
+
+.sidebar__nav li:last-child {
+  border-bottom: 0;
+}
